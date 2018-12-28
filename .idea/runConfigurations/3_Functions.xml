@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="3.Functions" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="lectures.part1basics.Functions" />
+    <module name="rock-the-jvm-scala-beginners" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="lectures.part1basics.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method />
+  </configuration>
+</component>

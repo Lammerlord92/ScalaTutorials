@@ -27,3 +27,18 @@ class Person (name: String,val age:Int=0) //constructor
   def this()=this("John Doe")
 }
 
+class Writer(firstName:String,surname:String,val year:Int){
+  def fullName(): String =
+    firstName+" "+surname
+
+}
+class Novel(name:String,yearRelease:Int,author:Writer){
+  def authorAge=yearRelease-author.year
+  def isWrittenBy(author:Writer) =this.author.eq(author)
+  def copy(releaseYear:Int)=new Novel(this.name,releaseYear,this.author)
+}
+class Counter(val x:Int){
+  def currentCount=x
+  def increment=new Counter(x+1)
+  def decrement=new Counter(x-1)
+}

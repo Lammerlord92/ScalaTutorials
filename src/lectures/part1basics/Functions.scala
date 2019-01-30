@@ -45,4 +45,6 @@ object Functions extends App {
   println(isPrime(37))
   println(isPrime(2003))
   println(isPrime(37*2003))
+
+
 }
